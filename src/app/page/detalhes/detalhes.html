@@ -1,5 +1,7 @@
 <div class="detalhes" *ngIf="filme">
     <h2>{{ filme.title }}</h2>
+    <img *ngIf="posterUrl" [src]="posterUrl" alt="{{ filme.title }} Poster" class="filme-poster" />
     <p>{{ filme.overview }}</p>
-    <p>Lançamento: {{ filme.release_date | formatDate }}</p>
+    <p class="data">Data de lançamento: {{ filme.release_date | formatDate }}</p>
+    <button routerLink="\listagem" class="btn btn-secondary" (click)="voltar()">Voltar</button>
   </div>

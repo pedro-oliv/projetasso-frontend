@@ -1,58 +1,50 @@
-.detalhes-container {
-    padding: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-  }
+.detalhes {
+  padding: 40px 20px;
+  background-color: #1a1a1a;
+  min-height: 100vh;
+}
+
+.detalhes h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.detalhes p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.data {
+  font-weight: bold;
+  color: white;
+}
+
+.filme-poster {
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width:50%;
   
-  .detalhes-container h1 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .detalhes-container .detalhes-imagem {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .detalhes-container .detalhes-imagem img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  .detalhes-container .detalhes-descricao {
-    font-size: 1.1rem;
-    color: #555;
-    line-height: 1.6;
-  }
-  
-  .detalhes-container .detalhes-descricao p {
-    margin-bottom: 10px;
-  }
-  
-  .detalhes-container .detalhes-actions {
-    margin-top: 30px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 15px;
-  }
-  
-  .detalhes-container .detalhes-actions button {
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-  }
-  
-  .detalhes-container .detalhes-actions button:hover {
-    background-color: #218838;
-  }
+}
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
   
