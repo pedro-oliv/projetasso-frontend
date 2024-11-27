@@ -1,0 +1,5 @@
+<div class="detalhes" *ngIf="filme">
+    <h2>{{ filme.title }}</h2>
+    <p>{{ filme.overview }}</p>
+    <p>Lançamento: {{ filme.release_date | formatDate }}</p>
+  </div>

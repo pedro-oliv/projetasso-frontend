@@ -1,0 +1,9 @@
+<div class="listagem">
+    <h2>Filmes Populares</h2>
+    <p *ngIf="erro" class="alert alert-danger">{{ erro }}</p>
+    <div *ngFor="let filme of filmes" appCard>
+      <h3>{{ filme.title }}</h3>
+      <p>Lançamento: {{ filme.release_date | formatDate }}</p>
+      <a [routerLink]="['/detalhes', filme.id]" class="btn btn-info">Ver Detalhes</a>
+    </div>
+  </div>
