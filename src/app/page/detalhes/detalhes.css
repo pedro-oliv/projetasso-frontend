@@ -24,12 +24,15 @@
 }
 
 .filme-poster {
-  width: 100%;
-  max-width: 500px;
+  width: 50%;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  width:50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
   
 }
 button {

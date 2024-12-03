@@ -20,7 +20,7 @@ import { formatDate } from '@angular/common';
     AppRoutingModule,
     CommonModule,
     RouterModule,
-    HttpClientModule
+    HttpClientModule,
 
   ],
   providers: [

@@ -18,7 +18,7 @@ export class MovieService {
   getMovieDetails(id: number): Observable<any> {
     return this.http.get(`${this.apiUrl}/movie/${id}?api_key=${this.apiKey}&language=pt-BR`);
   }
-  getMoviePoster(posterPath: string): string {
-    return 'https://image.tmdb.org/t/p/original${posterPath}';
+  getMoviePoster(poster_path: string): string {
+    return `https://image.tmdb.org/t/p/w500${poster_path}`;
   }
 }

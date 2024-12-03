@@ -3,7 +3,7 @@ import { MovieService } from '../../services/movieservice';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { formatDate } from '@angular/common';
-import { FormatDate } from '../../pipes/pipe';
+import { FormatDate } from '../../pipes/pipedata';
 
 @Component({
   selector: 'app-listagem',

@@ -3,7 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { MovieService } from '../../services/movieservice';
 import { CommonModule, formatDate } from '@angular/common';
 import { RouterLink } from '@angular/router';
-import { FormatDate } from '../../pipes/pipe';
+import { FormatDate } from '../../pipes/pipedata';
 
 
 @Component({
